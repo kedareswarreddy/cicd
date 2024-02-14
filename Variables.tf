@@ -17,5 +17,5 @@ variable "ami_id" {
 variable "bucketname" {
   description = "The name of the S3 bucket to create"
   type        = string
-  default     = "eswar-bucket9676"  #change Bucket name also
+  default     = "eswar-bucket"  #change Bucket name also
 }
