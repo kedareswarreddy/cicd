@@ -19,3 +19,8 @@ variable "bucketname" {
   type        = string
   default     = "eswar-bucket"  #change Bucket name also
 }
+variable "acl" {
+  description = "The ACL (Access Control List) for the S3 bucket"
+  type        = string 
+  default     = "private"
+}
